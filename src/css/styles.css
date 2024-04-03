@@ -31,7 +31,7 @@ header {
 }
 
 .config-nav {
-    background-color: var(--negroclaro);
+    /* background-color: var(--negroclaro); */
     display: flex;
     justify-content: space-between;
     color: var(--blanco);
@@ -55,7 +55,7 @@ h1 {
     text-align: right;
 }
 
-.contenedor {
+/* .contenedor {
     margin: 0 auto;
     max-width: 1300px;
     border: 1px solid black;
@@ -69,5 +69,5 @@ h1 {
     left: 5px;
     width: 300px;
     height: 250px;
-}
+} */
 
