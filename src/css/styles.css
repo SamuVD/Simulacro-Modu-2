@@ -1,0 +1,73 @@
+/*
+Nombre Completo: Samuel Villarreal Duque
+Clan: Gates
+Fecha: 03/04/2024
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;  
+    margin: 0;
+    padding: 0;
+    font-family: Open sans;
+}
+
+:root {
+    --blanco: #FCFCFC;
+    --negroclaro: #888887;
+    --negro: #000000;
+    --azuloscuro: #1776FF;
+    --cafeclaro: #DCB075;
+    --azulclaro: #4FCAFF;
+    --rojoclaro: #FF5048;
+    --naranja: #FF9022;
+    --verdeclaro: #AAF12E;
+} 
+
+header {
+    /* background-image: url(../../public/img/Mis\ viajes\ \(4\).png);
+    width: 100%; */
+}
+
+.config-nav {
+    background-color: var(--negroclaro);
+    display: flex;
+    justify-content: space-between;
+    color: var(--blanco);
+}
+
+#logo-titulo {
+    display: flex;
+    margin-left: 65px;
+    gap: 20px;
+}
+
+h1 {
+    display: flex;
+    margin-top: 50px;
+}
+
+.config-ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+}
+
+.contenedor {
+    margin: 0 auto;
+    max-width: 1300px;
+    border: 1px solid black;
+    height: 80vh;
+    margin-top: 30px;
+}
+
+.relative img {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    width: 300px;
+    height: 250px;
+}
+
